@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Kanit:wght@300&display=swap');
+
+body {
+                
+    font-family: 'Roboto', sans-serif;
+    background-image: url("/image/Pizzabackground4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+    #login-name{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    color: #2F4F4F;
+  }
+
+.colorNavbar{
+    background-image: linear-gradient(to right, #80D9C1, #A4E9D6);
+}
+
+.navbar-brand{
+    color: white!important;
+    font-size: 40px !important;
+    font-family: 'Caprasimo', cursive !important;
+}
+.nav-link{color:white!important;}
+.nav-link:hover{color:#47B99A!important;}
+.navbar-brand{
+    font-family: "Dollie Script Personal Use"
+}
+
+.navbar-toggler{color:white!important;}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.link{
+    font-size: 22px; 
+    font-family: 'Kanit', sans-serif;
+    padding-right: .50rem !important;
+}
+
+.footer{
+    background-image: linear-gradient(to right, #80D9C1, #A4E9D6);
+    margin-top: 130px;
+}
+.attachments_footer, .sizes_prices_footer{
+    margin-top: 180px;
+}
+.footer_welcome{
+    margin-top: 320px;
+}
+.welcome_title{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+.welcome_title span{
+    color: #2F4F4F;
+    font-size: 70px;
+    
+}
+.welcome_footer{
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    padding-top: 30px;
+    text-align: center;
+}
+.welcome_footer span{
+    color: #2F4F4F;
+    font-size: 55px;
+}
+
+@media screen and (max-width: 770px){
+    .flex{
+        flex-direction: column;
+    }
+    .welcome_footer{
+        text-align: center;
+    }
+    .welcome_title{
+        padding-top: 100px;
+    }
+    .th_style{
+        font-size: 13px;
+    }
+    .button_save{
+    padding-left: 70px;
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    .container_size_price,
+    .container_attachments, .container_edit_attachments, .container_edit_sizes_prices, .container_edit_pizza, .container_pizzas{
+        padding-bottom: 100px;
+    }
+    
+}   
+
+.attachments_form, .size_price_form, .attachments_edit_form, .sizes_prices_edit_form, .pizzas_edit_form{
+    padding-top: 20px;
+}
+
+.attachments, .size_price,.pizzas, .all_sizes_prices, .edit_attachments, .edit_sizes_prices, .edit_pizzas, .pizzas{
+    font-family: 'Lobster', cursive; 
+    font-size: 60px; 
+    color:#2F4F4F;
+    margin-top: 30px;
+}
+.attachments_form, .size_price_form, .attachments_edit_form, .sizes_prices_edit_form, .pizzas_form, .pizzas_edit_form{
+    margin-top: 20px;     
+}
+.add_label_text{
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+.button_save{
+    margin-top: 60px; 
+    margin-bottom:40px;
+    padding-right: 70px;
+}
+form.transboxaboutadd{
+    background-color: #D6F2EA;
+    border-radius: 30px;
+    margin-top: 50px;
+    border: 2px solid #ACDDCE;
+    
+}
+.table_style{
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 35px;
+    table-layout: fixed;
+    
+}
+.tr_style{
+    background-color: #f0f1ff;
+    text-align: center;
+}
+.tr_style:hover{
+    background-color: #A8CBD7;
+}
+.table1{
+    text-align: center;
+    background-color: #59A78F;
+}
+.th_style{
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.all_attachments, .all_sizes_prices_table, .all_pizzas{
+    padding-bottom: 100px;
+}
+.label_input{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card_style{
+    border-radius: 30px;
+    border: 2px solid #ACDDCE;
+    padding-bottom: 15px;
+    
+}
+.pizzas_dashboard{
+    margin-top: 15px;
+}
+.dashboard_card_title{
+    text-align: center;
+    font-family: 'Lobster', cursive; 
+    font-size: 30px; 
+    color:#2F4F4F;
+}
+.dashboard_card_text{
+    font-family: 'Courgette', cursive;
+}
+.dashboard_card_title2{
+    text-align: center;
+    font-family: 'Lobster', cursive; 
+    font-size: 20px; 
+    color:#2F4F4F;
+}
+.check_input{
+    margin-bottom: 10px;
+}
+.form_style{
+    margin-top: 30px;
+}
+.form-check-label{
+    font-family: 'Courgette', cursive;
+}

@@ -1,5 +1,21 @@
 # About
+Pizza Get website where users can choose the desired pizza, size, additional ingredients and order after registering. The total price is calculated based on the selected pizza size and amount of ingredients.
+
 # Features
+* A stylish design of the app has been created.
+* Created user registration and login system using Laravel Jetstream.
+* Validation done in the required places.
+* Admin has access to the entire system.
+* Admin can add, edit and delete pizza.
+* Admin can add, edit and delete pizza attachments.
+* Admin can add, edit and delete pizza size and price.
+* Admin can see all orders.
+* The user has access only to the pages assigned to her.
+* The user can choose the desired pizza size, additional ingredients and order.
+* The user can only see his orders.
+
+# Technologies used
+The project is created using Laravel framework, Laravel Jetstream, HTML, CSS, Bootstrap, PHP, Database SQlite.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 

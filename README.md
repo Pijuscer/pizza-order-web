@@ -5,6 +5,7 @@ Pizza Get website where users can choose the desired pizza, size, additional ing
 * A stylish design of the app has been created.
 * Created user registration and login system using Laravel Jetstream.
 * Validation done in the required places.
+* The total pizza price is calculated based on the selected pizza size and amount of ingredients.
 * Admin has access to the entire system.
 * Admin can add, edit and delete pizza.
 * Admin can add, edit and delete pizza attachments.

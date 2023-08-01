@@ -7,9 +7,7 @@ Pizza Get website where users can choose the desired pizza, size, additional ing
 * Validation done in the required places.
 * The total pizza price is calculated based on the selected pizza size and amount of ingredients.
 * Admin has access to the entire system.
-* Admin can add, edit and delete pizza.
-* Admin can add, edit and delete pizza attachments.
-* Admin can add, edit and delete pizza size and price.
+* Admin can create, read, update, delete (CRUD) pizza, pizza attachments, pizza size and price.
 * Admin can see all orders.
 * The user has access only to the pages assigned to her.
 * The user can choose the desired pizza size, additional ingredients and order.
